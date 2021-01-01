@@ -26,7 +26,8 @@ h3 {
 /* --- Groups & Items --- */
 
 .group {
-  
+  display: flex;
+  flex-direction: row; /* or column */
 }
 
 .item {
